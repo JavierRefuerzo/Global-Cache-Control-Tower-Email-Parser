@@ -98,6 +98,7 @@ for ircodedata in ircodes:
 #create csv file
 try:
     fileName = filedialog.asksaveasfilename()
+    fileName = fileName + ".csv"
     if fileName is "":
         print("Could not get a file name to save file")
         exit()
